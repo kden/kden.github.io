@@ -1,5 +1,5 @@
 
-# Statement on the use of AI
+# Statement regarding the use of AI
 I've made liberal use of AI throughout the project.  However, I didn't type in a prompt and let it spit out my project.  It was an 
 iterative process which was greatly sped up by using ChatGPT 4o and Google Gemini Pro.  
 
@@ -21,6 +21,7 @@ Some general problems I ran into:
 - Flipping back and forth between the same two solution fixes that don't work
 - Hitting the memory limit when a project reaches a certain size, so that it can't keep track of all the files that a change affects
 - Adding "improvements" to your code that you didn't ask for that interfere with the sequential plan for updates you're making
+- Knowledge in general is a little bit behind, maybe a year or so, so you will have to figure out what has changed in the latest library versions
 
 ## Results
 One of the effects of using AI to speed up the development process was that I got to try out different approaches more easily.  
