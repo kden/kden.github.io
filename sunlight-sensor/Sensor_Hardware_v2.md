@@ -180,4 +180,7 @@ My biggest splurge, which made me feel a bit ill because I know that a piece of 
 
 <img src="images/stealth_mounts_cleat_and_foot.jpg" width="400" />
 
+<img src="images/sensor_3_proto.jpg" width="400" />
+<img src="images/sensor_3_proto_top.jpg" width="400" />
+
 The sensors are now ready to transmit!

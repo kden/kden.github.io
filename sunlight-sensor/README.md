@@ -29,18 +29,18 @@ In the future, we can add sensors for temperature and humidity, and larger numbe
 
 I've assembled a small number of ESP32-driven sunlight sensors that run on batteries.
 
-<img src="images/sensor_2_proto.jpg" width="400" />
+<img src="images/sensor_2_proto.jpg" height="800" />
 
 And created a React-driven webapp to with the following views:
 
 ### Sensor Levels (pictured here with test data)
-<img src="images/screenshot_sensor_levels_screen.png" width="400" />
+<img src="images/screenshot_sensor_levels_screen.png" width="800" />
 
 ### Sensor Heatmap
-<img src="images/screenshot_heatmap.png" width="400" />
+<img src="images/screenshot_heatmap.png" width="800" />
 
 ### Sensor List
-<img src="images/screenshot_sensor_list.png" width="400" />
+<img src="images/screenshot_sensor_list.png" width="800" />
 
 For more information, click on the following links.
 
