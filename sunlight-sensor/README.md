@@ -45,7 +45,7 @@ And created a React-driven webapp to with the following views:
 For more information, click on the following links.
 
 [Statement regarding the use of AI in this project
-](Statement_Regarding_Use_of_AI.md)
+](Use_of_AI)
 
 [GitHub repository for webapp, including Terraform files for Google Cloud Platform
 ](https://github.com/kden/sunlight_sensor_gcp)
@@ -54,7 +54,7 @@ For more information, click on the following links.
 ](https://github.com/kden/esp32_sunlight_sensor)
 
 [Nonfunctional requirements (budgeting and technology constraints)
-](Nonfunctional_Requirements_and_Constraints.md)
+](Nonfunctional)
 
 [Architecture Diagram](Architecture.md)
 
