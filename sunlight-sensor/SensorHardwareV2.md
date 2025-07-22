@@ -164,7 +164,7 @@ I am still working through this problem.  So far I have tried:
 
 The solutions that I've seen for the 555 seem complicated when I have access to all of the functionality of the ESP32 board, so I think I am going to use it to periodically trigger something other than the onboard LED.  For now I have the suboptimal 100Ω resistor solution.  And eventually I will plan for a different power source that can be at least partly charged by solar.   At least for the sensors that aren't completely in the shade.
 
-### Enclosure
+## Enclosure
 
 Originally I ordered some nice enclosures which are intended specifically for electronics projects, but they were too small to hold a USB power bank.  They also tend to be held shut with screws, and I knew that since these were prototypes I'd probably be opening them up a lot.
 
