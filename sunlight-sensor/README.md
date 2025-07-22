@@ -45,7 +45,7 @@ And created a React-driven webapp to with the following views:
 For more information, click on the following links.
 
 [Statement regarding the use of AI in this project
-](Use_of_AI)
+](UseOfAI)
 
 [GitHub repository for webapp, including Terraform files for Google Cloud Platform
 ](https://github.com/kden/sunlight_sensor_gcp)
@@ -58,7 +58,7 @@ For more information, click on the following links.
 
 [Architecture Diagram](Architecture.md)
 
-[Sensor Hardware V1](Sensor_Hardware_v1.md)
+[Sensor Hardware V1](SensorHardwareV1)
 
 [Sensor Hardware V2
-](Sensor_Hardware_v2.md)
+](SensorHardwareV2)

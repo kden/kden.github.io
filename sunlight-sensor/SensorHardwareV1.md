@@ -48,4 +48,4 @@ I used my bike headlight and its various illumination levels to test that the LE
 
 The next step was to send sensor output to the cloud via WiFi.  This is where I ran into a problem.  Even though this ESP32 development board clearly has a connector which will accept an external antenna, it is disabled.  There is a small resistor on the board which forces the board to use its PCB antenna.  I wasn't able to connect to anything except when I put my phone hotspot within a couple of feet of the board.  I was afraid that in removing the resistor I might destroy the board, so I decided to do some more research on the ESP32 board types and get one compatible with an external antenna.  
 
-[Continue with Sensor Hardware V2](Sensor_Hardware_v2.md)
+[Continue with Sensor Hardware V2](SensorHardwareV2)
