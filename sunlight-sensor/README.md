@@ -1,5 +1,12 @@
 # Sunlight Sensor Project
 
+An end-to-end project based on ESP32 driven light sensors, using embedded software written in C with ESP-IDF, Google Cloud web services written in Python and Go, BigQuery and Firestore data service, Google Pub/Sub event handling, and a web app for viewing light levels built with React.
+
+Includes CICD workflow and application monitoring setup in GitHub and Google Cloud.
+
+[Link to the Sunlight Sensor web application.
+](https://sunlight.codepaw.com/)
+
 ## Concept
 
 [Permaculture](https://en.wikipedia.org/wiki/Permaculture) is a sustainable approach to land use, emphasizing a self-sustaining, regenerative ecosystem.  Farmers and gardeners are experimenting with permaculture techniques to use land in a way more compatible with natural ecosystems.
@@ -29,7 +36,7 @@ In the future, we can add sensors for temperature and humidity, and larger numbe
 
 I've assembled a small number of ESP32-driven sunlight sensors that run on batteries.
 
-<img src="images/sensor_2_proto.jpg" height="800" />
+<img src="images/sensor_2_proto.jpg" height="400" />
 
 And created a React-driven webapp to with the following views:
 
