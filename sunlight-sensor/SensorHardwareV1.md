@@ -19,13 +19,13 @@ I started putting together the first version of the sensor hardware with the che
 For the light sensor, I used a BH1750FVI type with a light diffusion dome. [[Amazon](https://www.amazon.com/gp/product/B09KGXD7C2/)]
 
 <figure>
-  <img src="images/light_sensor_back.jpg" width="400" alt="Back of the BH1750FVI light sensor, showing the silk-screened labels."/>
+  <img src="images/light_sensor_back.jpg" width="400" alt="Back of the BH1750FVI light sensor, showing the silk-screened labels.  About 1 inch in diameter."/>
   <figcaption>BH1750FVI light sensor</figcaption>
 </figure>
 
 <figure>
-  <img src="images/light_sensor_behind_dome.jpg" width="400" alt="Light sensor module with a white dome over it, about one inch in diameter."/>
-  <figcaption>BH1750FVI light sensor with diffusion dome</figcaption>
+  <img src="images/light_sensor_behind_dome.jpg" width="400" alt="Light sensor module view showing the board under the diffusion dome."/>
+  <figcaption>BH1750FVI light sensor with diffusion dome removed</figcaption>
 </figure>
 
 For light readout, I used a small LED screen. [[Amazon](https://www.amazon.com/gp/product/B06XRBYJR8/)]
@@ -44,7 +44,7 @@ The first thing I did was test that the ESP32 board was functional with a flashi
 Here it is sketched up in Fritzing, a great tool for drawing electronic diagrams if you are just learning about electronics, since it lets you switch between semi-realistic and schematic views.
 
 <figure>
-  <img src="images/fritzing_led_test_diagram.png" width="400" alt="A diagram of the connections between the ESP32 board and the LED on a half-motherboard for the flashing LED test." />
+  <img src="images/fritzing_led_test_diagram.png" width="400" alt="A diagram of the connections between the ESP32 board and the LED on a half-breadboard for the flashing LED test." />
   <figcaption>Fritzing diagram for flashing LED test</figcaption>
 </figure>
 
@@ -55,7 +55,7 @@ The second step was to introduce the light sensor and the LED screen. in that or
 ### Fritzing Sketch
 
 <figure>
-  <img src="images/fritzing_led_and_light_sensor.png" width="400" alt="A diagram showing the connections between the ESP32 board, the light sensor, and the LED screen on a half-motherboard."/>
+  <img src="images/fritzing_led_and_light_sensor.png" width="400" alt="A diagram showing the connections between the ESP32 board, the light sensor, and the LED screen on a mini-breadboard."/>
   <figcaption>Fritzing diagram for light sensor and LED screen</figcaption>
 </figure>
 
