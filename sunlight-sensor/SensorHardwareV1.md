@@ -6,29 +6,47 @@ All of the code used to program the ESP32 boards is in the project [esp32_sunlig
 
 I started putting together the first version of the sensor hardware with the cheapest ESP32 board that I thought would meet my needs.  I bought the ESP32 DEVKIT V1.1 - DOIT from DIYMALL via [Amazon](https://www.amazon.com/dp/B084KWNMM4). 
 
-<img src="images/DIYMALL_ESP32_DEVKIT_v1.1_DOIT.jpg" width="400" />
+<figure>
+  <img src="images/DIYMALL_ESP32_DEVKIT_v1.1_DOIT.jpg" width="400" alt="Top view of the ESP32 DEVKIT V1.1 - DOIT development board.  Roughly an inch by 2 inches." />
+  <figcaption>ESP32 DEVKIT V1.1 - DOIT</figcaption>
+</figure>
 
-<img src="images/doit_back.jpg" width="400" />
+<figure>
+  <img src="images/doit_back.jpg" width="400" alt="Back of ESP32 DEVKIT V1.1 - DOIT development board." />
+  <figcaption>Back of ESP32 DEVKIT V1.1 - DOIT</figcaption>
+</figure>
 
 For the light sensor, I used a BH1750FVI type with a light diffusion dome. [[Amazon](https://www.amazon.com/gp/product/B09KGXD7C2/)]
 
-<img src="images/light_sensor_back.jpg" width="400" />
+<figure>
+  <img src="images/light_sensor_back.jpg" width="400" alt="Back of the BH1750FVI light sensor, showing the silk-screened labels."/>
+  <figcaption>BH1750FVI light sensor</figcaption>
+</figure>
 
-<img src="images/light_sensor_behind_dome.jpg" width="400" />
+<figure>
+  <img src="images/light_sensor_behind_dome.jpg" width="400" alt="Light sensor module with a white dome over it, about one inch in diameter."/>
+  <figcaption>BH1750FVI light sensor with diffusion dome</figcaption>
+</figure>
 
 For light readout, I used a small LED screen. [[Amazon](https://www.amazon.com/gp/product/B06XRBYJR8/)]
 
-<img src="images/led_front.jpg" width="400" />
+<figure>
+  <img src="images/led_front.jpg" width="400" alt="Image of the LED screen, not yet hooked up to anything.  Approximately an inch by an inch and a half."/>
+  <figcaption>LED screen for light readout</figcaption>
+</figure>
 
 ## Flashing LED Test
 
 The first thing I did was test that the ESP32 board was functional with a flashing LED test.
 
-[flashing_led_test_output.mp4](video/flashing_led_test_output.mp4)
+<video controls> <source src="video/flashing_led_test_output.mp4" type="video/mp4"> <p>Your browser doesn’t support HTML5 video.  [You can download and view the flashing LED video here.](video/flashing_led_test_output.mp4)</p> </video>
 
 Here it is sketched up in Fritzing, a great tool for drawing electronic diagrams if you are just learning about electronics, since it lets you switch between semi-realistic and schematic views.
 
-<img src="images/fritzing_led_test_diagram.png" width="400" />
+<figure>
+  <img src="images/fritzing_led_test_diagram.png" width="400" alt="A diagram of the connections between the ESP32 board and the LED on a half-motherboard for the flashing LED test." />
+  <figcaption>Fritzing diagram for flashing LED test</figcaption>
+</figure>
 
 ## Light Sensor and LED Screen
 
@@ -36,13 +54,16 @@ The second step was to introduce the light sensor and the LED screen. in that or
 
 ### Fritzing Sketch
 
-<img src="images/fritzing_led_and_light_sensor.png" width="400" />
+<figure>
+  <img src="images/fritzing_led_and_light_sensor.png" width="400" alt="A diagram showing the connections between the ESP32 board, the light sensor, and the LED screen on a half-motherboard."/>
+  <figcaption>Fritzing diagram for light sensor and LED screen</figcaption>
+</figure>
 
 ## Light Sensor and LED Screen Test
 
 I used my bike headlight and its various illumination levels to test that the LED screen reflected the sensor output.  In the video clips my phone camera is trying to compensate for the rapidly changing light levels, so it looks a little weird, but the screen display did not blink as it does in the video, and the output on the LED reflected the sensor input.
 
-[light_sensor_screen_test_1_output.mp4](video/light_sensor_screen_test_1_output.mp4)
+<video controls> <source src="video/light_sensor_screen_test_1_output.mp4" type="video/mp4"> <p>Your browser doesn’t support HTML5 video.  [You can download and view the LED test video here.](video/light_sensor_screen_test_1_output.mp4)</p> </video>
 
 ## WiFi
 
