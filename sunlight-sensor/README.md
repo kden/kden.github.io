@@ -8,6 +8,8 @@ An end-to-end project data streaming project including:
 - Web app for viewing light intensity levels built with React/Next.js/Typescript, hosted on Firebase
 - Monitoring and alerting
 
+
+## Contents
 * TOC
 {:toc}
 

@@ -1,3 +1,5 @@
 name: Caden Howell's Portfolio
 theme: jekyll-theme-cayman
 show_downloads: false
+kramdown:
+  toc_levels: 2
