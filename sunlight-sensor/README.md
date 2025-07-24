@@ -8,10 +8,8 @@ An end-to-end project data streaming project including:
 - Web app for viewing light intensity levels built with React/Next.js/Typescript, hosted on Firebase
 - Monitoring and alerting
 
-
-| <img src="/sunlight-sensor/images/sensor_3_proto_top.jpg" width="400" alt="Prototype light sensor build"/> | <img  src="/sunlight-sensor/images/screenshot_sensor_levels_screen.png" width="600" alt="Screen shot of Sunlight Sensor Web App /> |
-| :=: | :=: |
-| ** Prototype light sensor build **| ** Web Application Screen Shot ** |
+* TOC
+{:toc}
 
 ## Source Code
 - [GitHub repository for webapp, Cloud Run functions, and Terraform files for Google Cloud Platform
@@ -23,6 +21,9 @@ An end-to-end project data streaming project including:
 
 - [Link to the Sunlight Sensor web application.
 ](https://sunlight.codepaw.com/)
+
+The application has test data under the "Test" sensor set, so you can preview it if the sensors are out for maintenance.
+
 - [Web application screen shots](WebappScreenshots.md)
 
 ## Concept
@@ -54,9 +55,17 @@ In the future, we can add sensors for temperature and humidity, and larger numbe
 
 The system starts with data coming in from the sensors, which are ESP32-driven, with embedded code written in C.  They capture the intensity of light with a light sensing component, and send those measurements to a REST API, implemented as a Cloud Run Function in Python.
 
-| <img src="images/sensor_3_proto_top.jpg" height="200" alt="Prototype light sensor build"/> |
-| :=: |
-| ** Prototype light sensor build **|
+<table role="presentation" style="width:100%; border:none;">
+  <tbody>
+    <tr>
+      <td style="text-align:center; vertical-align:top; border:none;">
+        <img src="images/sensor_3_proto_top.jpg" width="400" alt="A top-down view of a white, rectangular prototype enclosure for a light sensor. A small solar panel is visible on top."/>
+        <br/>
+        <strong>Prototype light sensor build</strong>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 The API does some filtering on security and data criteria, and passes that data on to Google Pub/Sub, which passes it on to BigQuery.  Two BigQuery scheduled queries then act as a small ETL pipeline, extracting the data from the Pub/Sub messages, and downsampling it to one reading per minute.
 
