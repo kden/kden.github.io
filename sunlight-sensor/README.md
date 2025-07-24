@@ -1,11 +1,29 @@
 # Sunlight Sensor Project
 
-An end-to-end project based on ESP32 driven light sensors, using embedded software written in C with ESP-IDF, Google Cloud web services written in Python and Go, BigQuery and Firestore data service, Google Pub/Sub event handling, and a web app for viewing light levels built with React.
+An end-to-end project data streaming project including:
+- ESP32 driven light sensors, using embedded software written in C with ESP-IDF, 
+- Google Cloud Run Functions written in Python and Go, acting as data processing scripts and a REST API,
+- BigQuery and Firestore data storage,
+- Google Pub/Sub event handling,
+- Web app for viewing light intensity levels built with React/Next.js/Typescript, hosted on Firebase
+- Monitoring and alerting
 
-Includes CICD workflow and application monitoring setup in GitHub and Google Cloud.
 
-[Link to the Sunlight Sensor web application.
+| <img src="/sunlight-sensor/images/sensor_3_proto_top.jpg" width="400" alt="Prototype light sensor build"/> | <img  src="/sunlight-sensor/images/screenshot_sensor_levels_screen.png" width="600" alt="Screen shot of Sunlight Sensor Web App /> |
+| :=: | :=: |
+| ** Prototype light sensor build **| ** Web Application Screen Shot ** |
+
+## Source Code
+- [GitHub repository for webapp, Cloud Run functions, and Terraform files for Google Cloud Platform
+](https://github.com/kden/sunlight_sensor_gcp)
+- [Github repository for firmware for the ESP32-driven light sensor, using ESP-IDF and C
+](https://github.com/kden/esp32_sunlight_sensor)
+
+## Web Application
+
+- [Link to the Sunlight Sensor web application.
 ](https://sunlight.codepaw.com/)
+- [Web application screen shots](WebappScreenshots.md)
 
 ## Concept
 
@@ -17,11 +35,11 @@ To plan what plants to put in a microclimate, you need to know things like the a
 
 ## Minimal Viable Product
 
-For me, whose idea of gardening is to throw gobs of native plant wildflower seeds around the yard and see what sticks, implementing permaculture is daunting.  I experimented for a few years in replacing our grass with clover as that seemed environmentally responsible. However, clover doesn't grow well in shady ares.  I also bought a number of bare-root raspberry plants.  The ones that I planted beneath trees have been dormant for several years, but the ones I planted in the sun blew up in just a year.  
+For me, whose idea of gardening is to throw gobs of native plant wildflower seeds around the yard and see what sticks, implementing permaculture is daunting.  I experimented for a few years in replacing our grass with clover as an environmentally friendlier alternative. However, clover doesn't grow well in shady ares.  I also noticed that the raspberries I planted in the sun thrived in comparison to those in the shade.
 
-I decided that sunlight was the most important data for improving the plant health backyard.  **The minimal viable product, then, will be a small set of sensors in the backyard that tracks the amount of sunlight in different areas.**
+I decided that sunlight was the most important data for improving the plant health in the backyard.  **The minimal viable product, then, will be a small set of sensors in the backyard that tracks the amount of sunlight in different areas.**  That way I can find the sunniest parts of the yard and take full advantage of their growth potential, while choosing ground cover that tolerates shade for the rest of the hard.
 
-In the future, we can add sensors for temperature and humidity, and larger numbers of sensors, but this will be a good proof of concept.
+In the future, we can add sensors for temperature and humidity, and larger numbers of sensors, but this will be a good minimal viable product for the end-to-end flow of data.
 
 ## Use cases
 
@@ -34,38 +52,34 @@ In the future, we can add sensors for temperature and humidity, and larger numbe
 
 ## Minimum Viable Product Build
 
-I've assembled a small number of ESP32-driven sunlight sensors that run on batteries.
+The system starts with data coming in from the sensors, which are ESP32-driven, with embedded code written in C.  They capture the intensity of light with a light sensing component, and send those measurements to a REST API, implemented as a Cloud Run Function in Python.
 
-<img src="images/sensor_2_proto.jpg" height="400" />
+| <img src="images/sensor_3_proto_top.jpg" height="200" alt="Prototype light sensor build"/> |
+| :=: |
+| ** Prototype light sensor build **|
 
-And created a React-driven webapp to with the following views:
+The API does some filtering on security and data criteria, and passes that data on to Google Pub/Sub, which passes it on to BigQuery.  Two BigQuery scheduled queries then act as a small ETL pipeline, extracting the data from the Pub/Sub messages, and downsampling it to one reading per minute.
 
-### Sensor Levels (pictured here with test data)
-<img src="images/screenshot_sensor_levels_screen.png" width="800" />
+Finally, some CloudRun functions downsample the data to 15-minute aggregations and upload it to Firebase, where it is easily read by the web app.
 
-### Sensor Heatmap
-<img src="images/screenshot_heatmap.png" width="800" />
+That is the basic minimum data flow, minus some additions described in [Architecture](Architecture.md)
 
-### Sensor List
-<img src="images/screenshot_sensor_list.png" width="800" />
+## Architecture
 
-For more information, click on the following links.
+[Sunlight Sensor project architecture diagrams](Architecture.md)
 
+## Statement regarding the use of AI
 [Statement regarding the use of AI in this project
 ](UseOfAI)
 
-[GitHub repository for webapp, including Terraform files for Google Cloud Platform
-](https://github.com/kden/sunlight_sensor_gcp)
 
-[Github repository for firmware for the ESP32-driven light sensor, using ESP-IDF
-](https://github.com/kden/esp32_sunlight_sensor)
-
+## Nonfunctional Requirements
 [Nonfunctional requirements (budgeting and technology constraints)
 ](Nonfunctional)
 
-[Architecture Diagram](Architecture.md)
+## Sensor Prototype Hardware Builds
 
-[Sensor Hardware V1](SensorHardwareV1)
+This was my first embedded software project, so these are as much stories as reference documents.
 
-[Sensor Hardware V2
-](SensorHardwareV2)
+- [Sensor Hardware V1](SensorHardwareV1)
+- [Sensor Hardware V2](SensorHardwareV2)
