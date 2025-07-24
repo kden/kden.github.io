@@ -6,11 +6,20 @@ After doing some research, I decided to upgrade to an official ExpressIf develop
 
 I chose the ESP32-S3-DevKitC-1U-N8 board.  [[Mouser](https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-S3-DevKitC-1U-N8)].  The "1U" means external antenna, and the "N8" means 8MB of flash memory (for my huge firmware program.)
 
-<img src="images/ESP32-S3-DevKitC-1U-N8.jpg" width="400" />
+<figure>
+  <img src="images/ESP32-S3-DevKitC-1U-N8.jpg" width="400" alt="Top view of the Espressif ESP32-S3-DevKitC-1U-N8 development board." />
+  <figcaption>ESP32-S3-DevKitC-1U-N8 board, top view.</figcaption>
+</figure>
 
-<img src="images/ESP32-S3-DevKitC-1U-N8-back.jpg" width="400" />
+<figure>
+  <img src="images/ESP32-S3-DevKitC-1U-N8-back.jpg" width="400" alt="Back view of the Espressif ESP32-S3-DevKitC-1U-N8 development board." />
+  <figcaption>ESP32-S3-DevKitC-1U-N8 board, back view.</figcaption>
+</figure>
 
-<img src="images/ESP32-S3-DevKitC-1U-N8_box.jpg" width="400" />
+<figure>
+  <img src="images/ESP32-S3-DevKitC-1U-N8_box.jpg" width="400" alt="The retail box for the Espressif ESP32-S3-DevKitC-1U-N8 development board." />
+  <figcaption>The box for the ESP32-S3-DevKitC-1U-N8 board.</figcaption>
+</figure>
 
 This is when I learned that different ESP32 boards don't necessarily have the same pin assignments.  Other differences you can see are that there is an additional USB port and an RGB LED light in addition to the first LED light.
 
@@ -38,9 +47,12 @@ I stuck with the same light sensor.
 
 ## WiFi Antenna
 
-I started with a kit containing both the antenna and the pigtail that would connect it to the ESP32 board.  I asked ChatGPT whether a particular antenna kit was compatible with my development board, and it said "sure thing, boss!" [[Mouser](https://www.mouser.com/ProductDetail/409-EP-FMWFEXT-UPCP)]  With this kind of foreshadowing, you've probably already realized that something was wrong.  It was the wrong kind of antenna pigtail.  I tried to gently mash the tiny connectors together, but I started to suspect I would break something if I really mashed them.  The connectors are so small, around the size of a sesame seed, that it's hard to see what's going on in there.
+I started with a kit containing both the antenna and the pigtail that would connect it to the ESP32 board.  I asked ChatGPT whether a particular antenna kit was compatible with my development board, and it said "sure thing, boss!" [Mouser]  With this kind of foreshadowing, you've probably already realized that something was wrong.  It was the wrong kind of antenna pigtail.  I tried to gently mash the tiny connectors together, but I started to suspect I would break something if I really mashed them.  The connectors are so small, around the size of a sesame seed, that it's hard to see what's going on in there.
 
-<img src="images/antenna_kit.jpg" width="400" />
+<figure>
+  <img src="images/antenna_kit.jpg" width="400" alt="A WiFi antenna kit including the antenna and a pigtail connector cable." />
+  <figcaption>The WiFi antenna kit with pigtail.</figcaption>
+</figure>
 
 When it arrived, I interrogated ChatGPT further about why this had happened.
 
@@ -63,15 +75,21 @@ ChatGPT:
 > - Example:  
 >   **U.FL male to SMA female pigtail adapter cable**, if your antenna uses SMA.
 
-This left me thoroughly confused, and I decided that the only way to be sure was to find some pigtails for sale with close-up pictures and visually verify that I had the right connector.  The ones that I found didn't call the U.FL end either male or female; I don't know if that means ChatGPT is right or not.  [[Amazon](https://www.amazon.com/dp/B0DZTWHNFY)]
+This left me thoroughly confused, and I decided that the only way to be sure was to find some pigtails for sale with close-up pictures and visually verify that I had the right connector.  The ones that I found didn't call the U.FL end either male or female; I don't know if that means ChatGPT is right or not.  [Amazon]
 
 The wrong connector: 
 
-<img src="images/wrong_antenna_connector.jpg" width="400" />
+<figure>
+  <img src="images/wrong_antenna_connector.jpg" width="400" alt="A close-up photo of the incorrect antenna pigtail connector which does not fit the ESP32 board." />
+  <figcaption>The wrong antenna pigtail connector.</figcaption>
+</figure>
 
 The right connector:
 
-<img src="images/right_antenna_connector.jpg" width="400" />
+<figure>
+  <img src="images/right_antenna_connector.jpg" width="400" alt="A close-up photo of the correct U.FL antenna pigtail connector for the ESP32 board." />
+  <figcaption>The right antenna pigtail connector.</figcaption>
+</figure>
 
 ## Power
 
@@ -83,7 +101,7 @@ I ran into complications when choosing a power source.  I started my research by
 
 ### TP4056 Module and LiPo Battery
 
-ChatGPT recommended I get a 3.7V 1200mAh LiPo battery [[Amazon](https://www.amazon.com/gp/product/B07TWHHCNK/)], and a TP4056 5V 1A Lithium Battery Charger Module Charging Board with Dual Protection Functions. [[Amazon](https://www.amazon.com/gp/product/B07PKND8KG/)]  I could add a solar panel to keep it charged it at some later date.
+ChatGPT recommended I get a 3.7V 1200mAh LiPo battery [Amazon], and a TP4056 5V 1A Lithium Battery Charger Module Charging Board with Dual Protection Functions. [Amazon]  I could add a solar panel to keep it charged it at some later date.
 
 When I got to the point that I was successfully sending sensor data via WiFi to my REST API, I decided it was time to hook up the battery.  I had it ready in my hands. I started by interrogating ChatGPT again.  Although I used Gemini for most of my code questions, I found ChatGPT more helpful in higher level questions or questions that required recent knowledge, like information about hardware components.  
 
@@ -140,7 +158,7 @@ Wow!  This sounded great.  What I was thinking was
 
 I'd be giving up some other goals, like sending back the exact voltage left on the battery back to the REST API so I could predict when batteries would run out, but there's always room to swap in my own power circuit and battery later.  
 
-I decided to pick up a couple of inexpensive new power banks to get started. [[Target](https://www.target.com/p/5000mah-power-bank-heyday-8482-pastel-lime/-/A-93042258?preselect=93042251)]
+I decided to pick up a couple of inexpensive new power banks to get started. [Target]
 
 ### Power Bank Automatic Shutoff
 
@@ -170,17 +188,33 @@ Originally I ordered some nice enclosures which are intended specifically for el
 
 I decided to try the Plano Waterproof Stowaway.  It has a gasket and satisfying snap-shut latches.  It's a soft plastic that I could cut holes in for the WiFi antenna and light sensor.  It was a good fit.
 
-<img src="images/plano_enclosure.jpg" width="400" />
+<figure>
+  <img src="images/plano_enclosure.jpg" width="400" alt="A clear plastic Plano Waterproof Stowaway box with orange latches." />
+  <figcaption>The Plano Waterproof Stowaway used as an enclosure.</figcaption>
+</figure>
 
 I mounted the ESP32's with a combination of mounting putty and cut-down breadboard.  The power banks are held in place with velcro.  The Wifi antenna screws into place, and I sealed the edges of the light sensor with some silicone.
 
-<img src="images/sensor_prototype_with_usb_battery.jpg" width="400" />
+<figure>
+  <img src="images/sensor_prototype_with_usb_battery.jpg" width="400" alt="The inside of the sensor enclosure, showing the ESP32 board, USB power bank, and wiring." />
+  <figcaption>The internal layout of the sensor prototype.</figcaption>
+</figure>
 
 My biggest splurge, which made me feel a bit ill because I know that a piece of plastic this size is worth a few cents, was a set of Stealthmounts Cleats and Feet, compatible with the Milwaukee Tool packout system.  I don't have a 3D printer, and I was so close to getting this prototype outside that I didnt' want to spend time woodworking.  I used JB Weld PlasticWeld epoxy to glue the "feet" to the enclosure boxes, and attached the cleats to simple wood staked stands.
 
-<img src="images/stealth_mounts_cleat_and_foot.jpg" width="400" />
+<figure>
+  <img src="images/stealth_mounts_cleat_and_foot.jpg" width="400" alt="A black plastic Stealthmounts cleat and foot, used for mounting the sensor enclosure." />
+  <figcaption>Stealthmounts Cleat and Foot for mounting.</figcaption>
+</figure>
 
-<img src="images/sensor_3_proto.jpg" width="400" />
-<img src="images/sensor_3_proto_top.jpg" width="400" />
+<figure>
+  <img src="images/sensor_3_proto.jpg" width="400" alt="The complete sensor prototype in its enclosure, mounted on a wooden stake stand." />
+  <figcaption>The fully assembled sensor prototype on its stand.</figcaption>
+</figure>
+
+<figure>
+  <img src="images/sensor_3_proto_top.jpg" width="400" alt="A top-down view of the sensor prototype, showing the light sensor and WiFi antenna protruding from the top of the enclosure." />
+  <figcaption>Top view of the assembled sensor prototype.</figcaption>
+</figure>
 
 The sensors are now ready to transmit!

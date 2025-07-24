@@ -39,7 +39,10 @@ For light readout, I used a small LED screen. [[Amazon](https://www.amazon.com/g
 
 The first thing I did was test that the ESP32 board was functional with a flashing LED test.
 
-<video controls> <source src="video/flashing_led_test_output.mp4" type="video/mp4"> <p>Your browser doesn’t support HTML5 video.  [You can download and view the flashing LED video here.](video/flashing_led_test_output.mp4)</p> </video>
+<figure>
+<video width="800" controls> <source src="video/flashing_led_test_output.mp4" type="video/mp4"> <p>Your browser doesn’t support HTML5 video.  [You can download and view the flashing LED video here.](video/flashing_led_test_output.mp4)</p> </video>
+  <figcaption>Video of the Flashing LED Test</figcaption>
+</figure>
 
 Here it is sketched up in Fritzing, a great tool for drawing electronic diagrams if you are just learning about electronics, since it lets you switch between semi-realistic and schematic views.
 
@@ -63,7 +66,10 @@ The second step was to introduce the light sensor and the LED screen. in that or
 
 I used my bike headlight and its various illumination levels to test that the LED screen reflected the sensor output.  In the video clips my phone camera is trying to compensate for the rapidly changing light levels, so it looks a little weird, but the screen display did not blink as it does in the video, and the output on the LED reflected the sensor input.
 
-<video controls> <source src="video/light_sensor_screen_test_1_output.mp4" type="video/mp4"> <p>Your browser doesn’t support HTML5 video.  [You can download and view the LED test video here.](video/light_sensor_screen_test_1_output.mp4)</p> </video>
+<figure>
+<video width="800" controls> <source src="video/light_sensor_screen_test_1_output.mp4" type="video/mp4"> <p>Your browser doesn’t support HTML5 video.  [You can download and view the LED test video here.](video/light_sensor_screen_test_1_output.mp4)</p> </video>
+<figcapture>Video of LED screen and light sensor test</figcapture>
+</figure>
 
 ## WiFi
 

@@ -1,7 +1,3 @@
----
-layout: alt_favicon
----
-
 # Sunlight Sensor Project
 
 An end-to-end project data streaming project including:
@@ -11,6 +7,12 @@ An end-to-end project data streaming project including:
 - Google Pub/Sub event handling,
 - Web app for viewing light intensity levels built with React/Next.js/Typescript, hosted on Firebase
 - Monitoring and alerting
+
+## Portfolio Project Goals
+In presenting this project, I'm hoping to convince you that:
+- As an experienced software engineer, I have a good understanding of the software development cycle and the what's involved in developing and deploying production software
+- I can quickly learn and contribute to projects using technologies I was previously unfamiliar with, and
+- Working with AI tools in a way that benefits your organization requires incremental change and testing to produce reliable results, and tenacity to get to the bottom of problems that AI can't solve.
 
 ## Contents
 - [Source Code](#source-code)
@@ -68,17 +70,10 @@ In the future, we can add sensors for temperature and humidity, and larger numbe
 
 The system starts with data coming in from the sensors, which are ESP32-driven, with embedded code written in C.  They capture the intensity of light with a light sensing component, and send those measurements to a REST API, implemented as a Cloud Run Function in Python.
 
-<table role="presentation" style="width:100%; border:none;">
-  <tbody>
-    <tr>
-      <td style="text-align:center; vertical-align:top; border:none;">
-        <img src="images/sensor_3_proto_top.jpg" width="400" alt="A top-down view of a white, rectangular prototype enclosure for a light sensor. A small solar panel is visible on top."/>
-        <br/>
-        <strong>Prototype light sensor build</strong>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<figure style="text-align: center;">
+  <img src="images/sensor_3_proto_top.jpg" width="400" alt="A top-down view of a white, rectangular prototype enclosure for a light sensor. A small solar panel is visible on top."/>
+  <figcaption><strong>Prototype light sensor build</strong></figcaption>
+</figure>
 
 The API does some filtering on security and data criteria, and passes that data on to Google Pub/Sub, which passes it on to BigQuery.  Two BigQuery scheduled queries then act as a small ETL pipeline, extracting the data from the Pub/Sub messages, and downsampling it to one reading per minute.
 
@@ -87,7 +82,6 @@ Finally, some CloudRun functions downsample the data to 15-minute aggregations a
 That is the basic minimum data flow, minus some additions described in [Architecture](Architecture.md)
 
 ## Architecture
-
 [Sunlight Sensor project architecture diagrams](Architecture.md)
 
 ## Statement regarding the use of AI
@@ -101,7 +95,7 @@ That is the basic minimum data flow, minus some additions described in [Architec
 
 ## Sensor Prototype Hardware Builds
 
-This was my first embedded software project, so these are as much stories as reference documents.
+This was my first embedded software project, so these are a bit more like stories than reference documents.
 
 - [Sensor Hardware V1](SensorHardwareV1)
 - [Sensor Hardware V2](SensorHardwareV2)

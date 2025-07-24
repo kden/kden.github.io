@@ -12,16 +12,26 @@ Based on my recent experience in the job market, I'd suggest the following:
 Finally, in the interview, ask them questions about the code and make sure they can
 explain how all of it works.  Ask them what features they would add.  Ask them what challenges they ran into.  Try to aim for an assignment that won't take more than a couple of hours.  Asking someone to do 2 days of unpaid work is a big investment for a job you may not get.  
 
-I also prefer take-home exams because they are the easiest to adjust for people with disabilities.  You can easily use your own tools for a take-home. You can also work around your schedule.  Additionally, if someone is willing to put in some extra time to do a good job, I don't think they should be penalized for that.  
+I also prefer take-home exams because they are the easiest to adjust for people with disabilities.  You can easily use your own tools for a take-home. You can also work around your schedule.  Additionally, if someone is willing to put in some extra time to do a good job, I don't think they should be penalized for that. 
 
 2. Allow AI and documentation searches for online coding exams.  Use a coding tool that will let them run some predefined test cases and hold back some test cases.
    Again, after the exam, you can ask them to explain what everything does.
 
 3. Consider offering the position as a contract-to-hire position.  Realistically, to know if someone is going to be able to do the job, the best test is to let them do the job.  The interview and job hiring process has been marginally effective since long before the widespread availability of AI.
 
-I'd like to end with what's either an apocryphically true internet story or a Dad joke:  "Once, I had a boss who would take the stack of resumes for any job application, shuffle them, and toss half right in the trash.  Naturally I was appalled.  I asked him
+I'd like to end with what's either an apocryphical internet story or a Dad joke:  "Once, I had a boss who would take the stack of resumes for any job application, shuffle them, and toss half right in the trash.  Naturally I was appalled.  I asked him
 why he did it.  He said, 'I don't want to hire any unlucky people.'"  
 
-We don't always acknowledge how hard and time consuminghiring is, but it is one of the most important roles you can have.  That investment can have a huge positive or negative impact on your organization.
+We don't always acknowledge how hard and time consuming hiring is, but it is one of the most important roles you can have.  That investment can have a huge positive or negative impact on your organization.
+
+
+
+# BUT WHAT ABOUT SECURITY??
+
+You are right to be concerned about security.  There have already been a number of instances of personal information and source code that were fed into LLMs as a part of questions, became training data, and were later leaked to other users.  You will have to measure your security risks and plan appropriately.  First, what is the risk of loss if your source code is leaked?  You should be aware of this already, because LLMs are not the only way that data gets leaked.  Depending on your risk, you might do one of several things (from less to more secure):
+
+1. Study the terms of your agreement with the LLM provider and make sure that you are using a product where your data does not become part of their training data.  Of course, this assumes that you trust them to not "accidentally" save your data anyway.
+2. Use a cleaning script to remove sensitive information from source code before uploading it or sharing it with an LLM.  I have the beginnings of such a script in the 
+
 
 _Written without the aid of AI_
