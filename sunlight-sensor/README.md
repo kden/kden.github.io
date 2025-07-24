@@ -12,10 +12,17 @@ An end-to-end project data streaming project including:
 - Web app for viewing light intensity levels built with React/Next.js/Typescript, hosted on Firebase
 - Monitoring and alerting
 
-
 ## Contents
-* TOC
-{:toc}
+- [Source Code](#source-code)
+- [Web Application](#web-application)
+- [Concept](#concept)
+- [Minimal Viable Product](#minimal-viable-product)
+- [Use cases](#use-cases)
+- [Minimum Viable Product Build](#minimum-viable-product-build)
+- [Architecture](#architecture)
+- [Statement regarding the use of AI](#statement-regarding-the-use-of-ai)
+- [Nonfunctional Requirements](#nonfunctional-requirements)
+- [Sensor Prototype Hardware Builds](#sensor-prototype-hardware-builds)
 
 ## Source Code
 - [GitHub repository for webapp, Cloud Run functions, and Terraform files for Google Cloud Platform
