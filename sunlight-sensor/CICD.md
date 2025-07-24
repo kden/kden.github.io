@@ -7,14 +7,21 @@ Basically, if you check a change into the main branch, and it is in the [sunligh
 If you check a change into the [functions/process_sensor_status ](https://github.com/kden/sunlight_sensor_gcp/tree/main/functions/sensor_status_monitor) the sensor status monitor function will be pushed to production by another GitHub action.
 
 # Screenshots
+<figure>
+  <img src="images/github_action_workflow.png" alt="Screenshot of the GitHub Actions workflow for the web app deployment, showing steps like Set Up Job, Checkout Repository, Install Dependencies, Run  Unit Tests, and Deploy to Firebase Hosting." width="800" />
+  <figcaption>GitHub Actions workflow for web app deployment.</figcaption>
+</figure>
 
+<figure>
+  <img src="images/github_action_test_output.png" alt="Screenshot showing the test results summary in GitHub Actions, with a green checkmark indicating all tests passed." width="800" />
+  <figcaption>GitHub Actions test results summary.</figcaption>
+</figure>
 
-
+Many of the other Cloud Run Functions are currently deployed by Terraform.  Terraform zips and uploads the code and deploys it that way.  This is not best practice, but was a way to get started, particularly with functions I didn't expect to change frequently.
 
 # How CICD would Scale Up to the Next Level
 There are some unit tests throughout the project, but code coverage is currently a work in progress.
 
-Many of the Cloud Run Functions 
 
 If this were a production project, ideally it would minimally:
 

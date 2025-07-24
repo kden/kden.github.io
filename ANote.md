@@ -12,7 +12,7 @@ Try to aim for an assignment that won't take more than a couple of hours.  Askin
 
 Provide some, but not all of the test cases for the assignment.  
 
-  Finally, in the interview, ask them questions about the code and make sure they can explain how all of it works.  Ask them what features they would add.  Ask them what challenges they ran into.
+Finally, in the interview, ask them questions about the code and make sure they can explain how all of it works.  Ask them what features they would add.  Ask them what challenges they ran into.
 
 I also prefer take-home exams because they are the easiest to adjust for people with disabilities.  You can easily use your own tools for a take-home. You can also work around your schedule.  Additionally, if someone is willing to put in some extra time to do a good job, I don't think they should be penalized for that. 
 
