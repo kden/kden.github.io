@@ -1,3 +1,7 @@
+---
+layout: alt_favicon
+---
+
 # Sunlight Sensor Project
 
 An end-to-end project data streaming project including:
