@@ -1,5 +1,4 @@
-# kden.github.io
-Caden Howell's Portfolio
+# Caden Howell's Portfolio
 
 ## [Sunlight Sensor Project](sunlight-sensor/README.md)
 
