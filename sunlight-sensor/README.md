@@ -12,7 +12,7 @@ An end-to-end project data streaming project including:
 In presenting this project, I'm hoping to convince you that:
 - As an experienced software engineer, I have a good understanding of the software development cycle and the what's involved in developing and deploying production software
 - I can quickly learn and contribute to projects using technologies I was previously unfamiliar with, and
-- Working with AI tools in a way that benefits your organization requires incremental change and testing to produce reliable results, and tenacity to get to the bottom of problems that AI can't solve.
+- Working with AI tools effectively and reliably requires incremental change and testing to produce reliable results.  It also takes tenacity to get to the bottom of problems that AI can't solve.
 
 ## Contents
 - [Source Code](#source-code)

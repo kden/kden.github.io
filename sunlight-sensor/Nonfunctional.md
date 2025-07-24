@@ -4,10 +4,10 @@
 
 There are some requirements that I selected because they are technologies that I am looking for more opportunities to work with.
 
-For example, I wrote some Cloud Functions in Python and at least one in Go. In real life it would probably be better to use the same language for all of them to simplify maintenance, but I wanted to show that I could write a working service in Go.
+For example, I wrote some Cloud Functions in Python and at least one in Go. In real life it would probably be better to use the same language for all of them to simplify maintenance, but I wanted to show that I could write a working API in Go.
 
 - Go/Golang
-- Embedded programming C/C++
+- Embedded programming in C
 - Python
 - React
 - Terraform
