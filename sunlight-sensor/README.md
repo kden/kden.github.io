@@ -14,9 +14,6 @@ In presenting this project, I'm hoping to convince you that:
 - I can quickly learn and contribute to projects using technologies I was previously unfamiliar with, and
 - Working with AI tools effectively and reliably requires incremental change and testing to produce reliable results.  It also takes tenacity to get to the bottom of problems that AI can't solve.
 
-[Link to the Sunlight Sensor web application.](https://sunlight.codepaw.com/)
-
-At any given time, there may be 1-4 sensors running in the "backyard" sensor set.  I am still in the process of experimenting with data flow timing and power consumption in particular.  The application has test data under the "Test" sensor set, so you can preview it if the sensors are out for maintenance.
 
 
 ## Project Contents
@@ -41,9 +38,8 @@ At any given time, there may be 1-4 sensors running in the "backyard" sensor set
 
 ## Web Application
 
-- [Link to the Sunlight Sensor web application.
-](https://sunlight.codepaw.com/)
+- [Link to the Sunlight Sensor web application.](https://sunlight.codepaw.com/)
 
-The application has test data under the "Test" sensor set, so you can preview it if the sensors are out for maintenance.
+At any given time, there may be 1-4 sensors running in the "backyard" sensor set.  I am still in the process of experimenting with data flow timing and power consumption in particular.  The application has test data under the "Test" sensor set, so you can preview it if the sensors are out for maintenance.
 
 - [Web application screen shots](WebappScreenshots.md)
