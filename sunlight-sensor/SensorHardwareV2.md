@@ -158,7 +158,7 @@ Wow!  This sounded great.  What I was thinking was
 
 I'd be giving up some other goals, like sending back the exact voltage left on the battery back to the REST API so I could predict when batteries would run out, but there's always room to swap in my own power circuit and battery later.  
 
-I decided to pick up a couple of inexpensive new power banks to get started. [Target]
+I decided to pick up a couple of inexpensive new power banks to get started. [Target](https://www.target.com/p/5000mah-power-bank-heyday-8482-purple/-/A-93042250)
 
 ### Power Bank Automatic Shutoff
 

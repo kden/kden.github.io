@@ -2,6 +2,8 @@
 
 All of the code used to program the ESP32 boards is in the project [esp32_sunlight_sensor](https://github.com/kden/esp32_sunlight_sensor).
 
+This was my first embedded software project, so this document is as much as a description of the learning process as a reference for the actual hardware.
+
 ## Components
 
 I started putting together the first version of the sensor hardware with the cheapest ESP32 board that I thought would meet my needs.  I bought the ESP32 DEVKIT V1.1 - DOIT from DIYMALL via [Amazon](https://www.amazon.com/dp/B084KWNMM4). 
