@@ -24,7 +24,7 @@ The minimum viable product build revolves around the data flow of the light inte
    2. A subscription which sends the data to another Cloud Run function, which creates formatted logging messages for Google Cloud Monitoring.
 4. BigQuery runs two incremental scheduled query jobs on the incoming data:
    1. Convert the data from Pub/Sub JSON data to columns
-   2. Downsample the data so that there is a maximum of one reading per minute.  I experimented with filling in minutes for missing data by carrying the last value forward or using linear extrapolation, but there didn't seem to be a benefit to that at this point in our data reporting.
+   2. Downsample the data so that there is a maximum of one reading per minute.  I experimented with filling in minutes for missing data by carrying the last value forward or using linear interpolation, but there didn't seem to be a benefit to that at this point in our data reporting.
 5. Google Cloud Scheduler (like a cron job) triggers another Python Cloud Run function which copies the data to Firestore.  We could have pulled the data for the web UI directly from BigQuery, but BigQuery is better suited for data analytics and warehousing; Firestore is better suited for web applications.  As a part of the function, the data gets downsampled again to one bucket for every 15 minutes.  I did try transferring the full one-reading-per-minute data set, but the UI struggled to load 1440 points.  I used the React profiler and confirmed that this was a bottleneck for the UI.
 6. Finally, the user can view the data in the UI application, which reads the sensor data from Firestore.  The UI application is a React application hosted on Firebase.
 
