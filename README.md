@@ -1,5 +1,7 @@
 # Caden Howell's Portfolio
 
+Like many software engineers, the vast majority of the code I've worked on over the course of my career has been proprietary, so I can't make it part of my portfolio.  Unless otherwise stated, projects on this page were done on my own time.
+
 ## [Sunlight Sensor Project](sunlight-sensor/README.md)
 
 [View the Sunlight Sensor Project](sunlight-sensor/README.md)
