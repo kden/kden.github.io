@@ -16,6 +16,9 @@ In presenting this project, I'm hoping to convince you that:
 
 [Link to the Sunlight Sensor web application.](https://sunlight.codepaw.com/)
 
+At any given time, there may be 1-4 sensors running in the "backyard" sensor set.  I am still in the process of experimenting with data flow timing and power consumption in particular.  The application has test data under the "Test" sensor set, so you can preview it if the sensors are out for maintenance.
+
+
 ## Project Contents
 - [Source Code](#source-code)
 - [Web Application](#web-application)
@@ -28,6 +31,7 @@ In presenting this project, I'm hoping to convince you that:
 - Sensor Prototype Hardware Builds
   - [Sensor Hardware V1](SensorHardwareV1)
   - [Sensor Hardware V2](SensorHardwareV2)
+- [Test Site Description](Site.md)
 
 ## Source Code
 - [GitHub repository for webapp, Cloud Run functions, and Terraform files for Google Cloud Platform
