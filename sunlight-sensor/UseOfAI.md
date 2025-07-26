@@ -8,6 +8,8 @@ like a plausible solution, but if it doesn't interact with anything, you don't k
 
 Also, electronic components and libraries change quickly, and I thought I would probably have to do some troubleshooting and development that the LLM could not help with.  (This turned out to be true.)
 
+The write-up of this project was done without the aid of AI.
+
 ## LLM Limitations
 
 Gemini and ChatGPT have accelerated my development immensely, but there were some problems they struggled with.
