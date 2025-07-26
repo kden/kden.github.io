@@ -2,7 +2,7 @@
 
 As I write this, in July of 2025, both employers and potential employees are struggling greatly with the use of AI.  Job postings are inundated with automatically-generated applications.  Cover letters are no longer a useful indicator of someone's writing abilities. Potential employees are screened out by opaque criteria that make no distinction between auto-generated applications and applications that have been labored over for hours.  There are no tools that have been proven to reliably detect AI.
 
-I would discourage employers from forbidding developers from using AI or documentation in coding exams.  For one thing, that's not an accurate reflection of what they will have access to on the job.  Someone with a great memory is not necessarily the  person who will have other strengths, like critical thinking or creativity.  For another thing, you will end up rewarding people for being dishonest.  Your applicants will be in the sad and difficult position of choosing between cheating or being routinely outperformed by those who do.
+I would discourage employers from forbidding developers from using AI or documentation in coding exams.  For one thing, that's not an accurate reflection of what they will have access to on the job.  Someone with a great memory for syntax is not necessarily the person who will have other strengths, like critical thinking or creativity.  For another thing, you will end up rewarding people for being dishonest.  Your applicants will be in the sad and difficult position of choosing between cheating or being routinely outperformed by those who do.
 
 Based on my recent experience in the job market, I'd suggest the following:
 
