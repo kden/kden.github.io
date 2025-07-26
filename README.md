@@ -2,6 +2,8 @@
 
 Like many software engineers, the vast majority of the code I've worked on over the course of my career has been proprietary, so I can't make it part of my portfolio.  Unless otherwise stated, projects on this page were done on my own time.
 
+Use of AI has been disclosed where applicable.  The text of this portfolio was written without AI.
+
 ## [Sunlight Sensor Project](sunlight-sensor/README.md)
 
 [View the Sunlight Sensor Project](sunlight-sensor/README.md)
