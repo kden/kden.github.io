@@ -1,5 +1,3 @@
-# Caden Howell's Portfolio
-
 Like many software engineers, the vast majority of the code I've worked on over the course of my career has been proprietary, so I can't make it part of my portfolio.  Unless otherwise stated, projects on this page were done on my own time.
 
 Use of AI has been disclosed where applicable.  The text of this portfolio was written without AI.
@@ -8,7 +6,7 @@ Use of AI has been disclosed where applicable.  The text of this portfolio was w
 
 [View the Sunlight Sensor Project](sunlight-sensor/README.md)
 
-An end-to-end project data streaming project including:
+An end-to-end data streaming project including:
 - ESP32 driven light sensors, using embedded software written in C with ESP-IDF, 
 - Google Cloud Run Functions written in Python and Go, acting as data processing scripts and a REST API,
 - BigQuery and Firestore data storage,
