@@ -8,13 +8,13 @@ Based on my recent experience in the job market, I'd suggest the following:
 
 1. Use take-home exams, and allow the use of AI with disclosure.  One of the best-done interview processes I went through took this approach. 
 
-Try to aim for an assignment that won't take more than a couple of hours.  Asking someone to do 2 days of unpaid work is a big investment for a job you may not get.  
+   Try to aim for an assignment that won't take more than a couple of hours.  Asking someone to do 2 days of unpaid work is a big investment for a job you may not get.  
 
-Provide some, but not all of the test cases for the assignment.  
+   Provide some, but not all of the test cases for the assignment.  
 
-Finally, in the interview, ask them questions about the code and make sure they can explain how all of it works.  Ask them what features they would add.  Ask them what challenges they ran into.
+   Finally, in the interview, ask them questions about the code and make sure they can explain how all of it works.  Ask them what features they would add.  Ask them what challenges they ran into.
 
-I also prefer take-home exams because they are the easiest to adjust for people with disabilities.  You can easily use your own tools for a take-home. You can also work around your schedule.  Additionally, if someone is willing to put in some extra time to do a good job, I don't think they should be penalized for that. 
+   I also prefer take-home exams because they are the easiest to adjust for people with disabilities.  You can easily use your own tools for a take-home. You can also work around your schedule.  Additionally, if someone is willing to put in some extra time to do a good job, I don't think they should be penalized for that. 
 
 2. Allow AI and documentation searches for online coding exams.  Use a coding tool that will let them run some predefined test cases and hold back some test cases.
    Again, after the exam, you can ask them to explain what everything does.
