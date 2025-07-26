@@ -32,7 +32,11 @@ We don't always acknowledge how hard and time-consuming hiring is, but it is one
 You are right to be concerned about security.  There have already been a number of instances of personal information and source code that were fed into LLMs as a part of questions, became training data, and were later leaked to other users.  You will have to measure your security risks and plan appropriately.  First, what is the risk of loss if your source code is leaked?  You should be aware of this already, because LLMs are not the only way that data gets leaked.  Depending on your risk, you might do one of several things (from less to more secure):
 
 1. Study the terms of your agreement with the LLM provider and make sure that you are using a product where your data does not become part of their training data.  Of course, this assumes that you trust them to not "accidentally" save your data anyway.
-2. Use a cleaning script to remove sensitive information from source code before uploading it or sharing it with an LLM.  I have the beginnings of such a script in the [sunlight_sensor_gcp](https://github.com/kden/sunlight_sensor_gcp/blob/main/clean_code_export.sh) project.  It copies only the files that get checked into git to a separate folder to be uploaded as context to some LLM tool.  You shouldn't be checking any sensitive information into source control in any case.  In addition, I would probably add code to search and replace company and product names with something generic.
+
+2. Use a cleaning script to remove sensitive information from source code before uploading it or sharing it with an LLM.
+
+    I have the beginnings of such a script in the [sunlight_sensor_gcp](https://github.com/kden/sunlight_sensor_gcp/blob/main/clean_code_export.sh) project. It copies only the files that get checked into git to a separate folder to be uploaded as context to some LLM tool.  You shouldn't be checking any sensitive information into source control in any case.  In addition, I would probably add code to search and replace company and product names with something generic.
+
 3. Use an offline LLM.  There are some LLMs you can download and run locally.
 
 Keep your assets secure.  But weigh the cost of security versus the cost of potential loss.  I think it is only going to get harder to prevent developers from using AI as a part of their work.  Soon, if not already, it will be like asking someone to write code without Google or Stack Overflow, while competing with companies who have access to these tools and can develop much more rapidly. 
