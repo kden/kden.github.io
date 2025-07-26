@@ -30,6 +30,6 @@ An end-to-end data streaming project including:
   </tbody>
 </table>
 
-## A Note to Employers about Regarding the Use of AI
+## A Note to Employers Regarding the Use of AI
 
 [View A Note to Employers Regarding the Use of AI](ANote.md)
