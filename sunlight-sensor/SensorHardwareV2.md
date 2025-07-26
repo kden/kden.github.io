@@ -4,7 +4,7 @@ After doing some research, I decided to upgrade to an official ExpressIf develop
 
 ## New Board
 
-I chose the ESP32-S3-DevKitC-1U-N8 board.  [[Mouser](https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-S3-DevKitC-1U-N8)].  The "1U" means external antenna, and the "N8" means 8MB of flash memory (for my huge firmware program.)
+I chose the ESP32-S3-DevKitC-1U-N8 board.  [[Mouser](https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-S3-DevKitC-1U-N8)].  The "1U" means external antenna, and the "N8" means 8MB of flash memory.
 
 <figure>
   <img src="images/ESP32-S3-DevKitC-1U-N8.jpg" width="400" alt="Top view of the Espressif ESP32-S3-DevKitC-1U-N8 development board." />
@@ -158,7 +158,7 @@ Wow!  This sounded great.  What I was thinking was
 
 I'd be giving up some other goals, like sending back the exact voltage left on the battery back to the REST API so I could predict when batteries would run out, but there's always room to swap in my own power circuit and battery later.  
 
-I decided to pick up a couple of inexpensive new power banks to get started. [Target](https://www.target.com/p/5000mah-power-bank-heyday-8482-purple/-/A-93042250)
+I decided to pick up a couple of inexpensive new power banks to get started. [[Target]](https://www.target.com/p/5000mah-power-bank-heyday-8482-purple/-/A-93042250)
 
 ### Power Bank Automatic Shutoff
 
@@ -176,7 +176,7 @@ I am still working through this problem.  So far I have tried:
 
 1. A 100Ω resistor.  This worked well, but reduced the life of the battery pack.
 
-2. A 47Ω resistor.  This caused the power bank to blink its indicator lights and then shut itself off.  I suspect the resistance was so low that it detected it as a short.  There's not a ton of documentation for this power bank.
+2. A 47Ω resistor.  This caused the power bank to blink its indicator lights and then shut itself off.  I suspect the resistance was so low that it detected it as a short.
 
 3. Turn on the RGB LED onboard the ESP32 at maximum brightness every few seconds.  This was not enough to keep the power bank alive.
 
@@ -200,7 +200,7 @@ I mounted the ESP32's with a combination of mounting putty and cut-down breadboa
   <figcaption>The internal layout of the sensor prototype.</figcaption>
 </figure>
 
-My biggest splurge, which made me feel a bit ill because I know that a piece of plastic this size is worth a few cents, was a set of Stealthmounts Cleats and Feet, compatible with the Milwaukee Tool packout system.  I don't have a 3D printer, and I was so close to getting this prototype outside that I didnt' want to spend time woodworking.  I used JB Weld PlasticWeld epoxy to glue the "feet" to the enclosure boxes, and attached the cleats to simple wood staked stands.
+My biggest splurge, which made me feel a bit ill because I know that a piece of plastic this size is worth a few cents, was a set of Stealthmounts Cleats and Feet, compatible with the Milwaukee Tool packout system.  I don't have a 3D printer, and I was so close to completing this prototype that I didnt' want to spend time woodworking.  I used JB Weld PlasticWeld epoxy to glue the "feet" to the enclosure boxes, and attached the cleats to simple wood staked stands.
 
 <figure>
   <img src="images/stealth_mounts_cleat_and_foot.jpg" width="400" alt="A black plastic Stealthmounts cleat and foot, used for mounting the sensor enclosure." />
