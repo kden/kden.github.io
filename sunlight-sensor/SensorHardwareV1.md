@@ -42,7 +42,7 @@ For light readout, I used a small LED screen. [[Amazon](https://www.amazon.com/g
 The first thing I did was test that the ESP32 board was functional with a flashing LED test.
 
 <figure>
-<video width="544" height="960" controls> <source src="video/flashing_led_test_output.mp4" type="video/mp4"> <p>Your browser doesn’t support HTML5 video.  [You can download and view the flashing LED video here.](video/flashing_led_test_output.mp4)</p> </video>
+<video width="272" height="480" controls> <source src="video/flashing_led_test_output.mp4" type="video/mp4"> <p>Your browser doesn’t support HTML5 video.  [You can download and view the flashing LED video here.](video/flashing_led_test_output.mp4)</p> </video>
   <figcaption>Video of the Flashing LED Test</figcaption>
 </figure>
 
