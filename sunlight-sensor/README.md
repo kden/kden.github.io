@@ -1,6 +1,6 @@
 # Sunlight Sensor Project
 
-An end-to-end project data streaming project including:
+An end-to-end data streaming project including:
 - ESP32 driven light sensors, using embedded software written in C with ESP-IDF, 
 - Google Cloud Run Functions written in Python and Go, acting as data processing scripts and a REST API,
 - BigQuery and Firestore data storage,
@@ -29,6 +29,7 @@ In presenting this project, I'm hoping to convince you that:
   - [Sensor Hardware V1](SensorHardwareV1)
   - [Sensor Hardware V2](SensorHardwareV2)
 - [Test Site Description](Site.md)
+- [Future Enhancements and Fixes](https://github.com/users/kden/projects/1) Tracked as issues in GitHub
 
 ## Source Code
 - [GitHub repository for webapp, Cloud Run functions, and Terraform files for Google Cloud Platform
