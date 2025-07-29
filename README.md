@@ -7,6 +7,7 @@ Use of AI has been disclosed where applicable.  The text of this portfolio was w
 [View the Sunlight Sensor Project](sunlight-sensor/README.md)
 
 An end-to-end data streaming project including:
+
 - ESP32 driven light sensors, using embedded software written in C with ESP-IDF, 
 - Google Cloud Run Functions written in Python and Go, acting as data processing scripts and a REST API,
 - BigQuery and Firestore data storage,
@@ -29,6 +30,14 @@ An end-to-end data streaming project including:
     </tr>
   </tbody>
 </table>
+
+## Writing Samples
+
+*Written without the aid of AI*
+
+- [Aligning an audio file with an EPUB3](writing/AligningEPUBs.md)
+
+- [Is this a Scam?  A true life story](Writing/IsThisAScam.md)
 
 ## A Note to Employers Regarding the Use of AI
 
