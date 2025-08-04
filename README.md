@@ -2,6 +2,8 @@ Like many software engineers, the vast majority of the code I've worked on over 
 
 Use of AI has been disclosed where applicable.  The text of this portfolio was written without AI.
 
+LinkedIn: [linkedin.com/in/chowell](https://linkedin.com/in/chowell)
+
 ## [Sunlight Sensor Project](sunlight-sensor/README.md)
 
 [View the Sunlight Sensor Project](sunlight-sensor/README.md)
@@ -36,7 +38,6 @@ An end-to-end data streaming project including:
 *Written without the aid of AI*
 
 - [Aligning an audio file with an EPUB3](writing/AligningEPUBs.md)
-
 - [Is this a Scam?  A true life story](Writing/IsThisAScam.md)
 
 ## A Note to Employers Regarding the Use of AI

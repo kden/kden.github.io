@@ -204,10 +204,10 @@ The result of the preparation is a data structure containing the list of sentenc
 
 ## Doing the alignment
 
-Surprising, one of the standard algorithms for aligning two texts for machine
+Surprisingly, one of the standard algorithms for aligning two texts for machine
 translation doesn't use any contextual information about those languages at all. It's called the Gale and Church algorithm, which takes a list of the character lengths of the sentences and uses that information to make the match. If the sentences are accurately transcribed, this should work pretty well.
 
-While looking for people who had done "monolingual alignment" instead of multilingualalignment for machine translation, we noticed this troubling paragraph:
+While looking for people who had done "monolingual alignment" instead of multilingual alignment for machine translation, we noticed this troubling paragraph:
 
 > For bilingual texts, Gale and Church (1991) demonstrated the extraordinary
 > effectiveness of a global alignment dynamic programming algorithm, where
@@ -466,7 +466,7 @@ improve the likelihood of adjacent matches?
 ### Use smaller units than sentences
 
 Although at this point, I am thinking windows of word matches might be our best bet,
-we did also look at a potential method which was interesting as a chance to look at
+we did also look at a potential method which an interesting chance to look at
 more NLP tools. Late in the week, we started to look at several methods of breaking
 sentences down into clauses. One was a dumb splitting at commas and semicolons.
 
@@ -485,4 +485,6 @@ We didn't get very far investigating this, but the NLTK documentation contains a
 
 # Conclusion
 
-As is often the case with Machine Learning problems you can get most of the way there with an unexpectedly simple solution: in this case, sentence length.  (Which is probably why these problems and solutions are so beloved by hackathons.)   Getting to perfection becomes exponentially harder.  However, it would be great if we could build more talking books with volunteer readers.  Human speech is a bottleneck in that process.That last twenty percent will be tougher.  
+As is often the case with Machine Learning problems you can get most of the way there with an unexpectedly simple solution: in this case, sentence length.  (Which is probably why these sorts of problems and solutions are so beloved by hackathons.)   Getting to perfection becomes exponentially harder.
+
+We covered some suggestions for other methods to try to improve accuracy, but I'd also be curious to see what users find to be "good enough."  Depending on how the book is being used, it might not be a big deal to mislabel a few words.  Or maybe it would be extremely frustrating.  This might be a good stage to look at our audience and collect their feedback.

@@ -6,7 +6,11 @@ I would discourage employers from forbidding developers from using AI or documen
 
 Based on my recent experience in the job market, I'd suggest the following:
 
-1. Use take-home exams, and allow the use of AI with disclosure.  One of the best-done interview processes I went through took this approach. 
+1. Include 1-3 short essay questions in the job application.  As I look through all of the identical job submission forms for greenhouse, lever, myworkdayjobs, etc., I can't help but think about how easy it would be to write scripts to fill these cookie-cutter application forms in bulk.  Which is a huge problem right now for potential hirers and hirees.  Adding a few questions like "What drew you to this field?" or "What is an obstacle you've had to overcome in your career that made you a more understanding person?"  Most forms are looking for a resume and a cover letter, which bulk applicants probably already have ready.  This might make at least some of them skip your form.
+   
+   A related option is a technical screen-out question that asks them to go to a different part of site, solve a simple problem, and come back and paste the answer.  This obviously requires more setup on your end, but you might earn it back in the number of resumes you don't have to weed out.
+
+2. Use take-home exams, and allow the use of AI with disclosure.  One of the best-done interview processes I went through took this approach. 
 
    Try to aim for an assignment that won't take more than a couple of hours.  Asking someone to do 2 days of unpaid work is a big investment for a job you may not get.  
 
@@ -16,10 +20,10 @@ Based on my recent experience in the job market, I'd suggest the following:
 
    I also prefer take-home exams because they are the easiest to adjust for people with disabilities.  You can easily use your own tools for a take-home. You can also work around your schedule.  Additionally, if someone is willing to put in some extra time to do a good job, I don't think they should be penalized for that. 
 
-2. Allow AI and documentation searches for online coding exams.  Use a coding tool that will let them run some predefined test cases and hold back some test cases.
+3. Allow AI and documentation searches during online coding exams.  Use a coding tool that will let them run some predefined test cases and hold back some test cases.
    Again, after the exam, you can ask them to explain what everything does.
 
-3. Consider offering the position as a contract-to-hire position.  Realistically, to know if someone is going to be able to do the job, the best test is to let them do the job.  The interview and job hiring process has been marginally effective since long before the widespread availability of AI.
+4. Consider offering the position as a contract-to-hire position.  Realistically, to know if someone is going to be able to do the job, the best test is to let them do the job.  The interview and job hiring process has been marginally effective since long before the widespread availability of AI.
 
 I'd like to end with what's either an apocryphical internet story or a Dad joke:  "Once, I had a boss who would take the stack of resumes for any job application, shuffle them, and toss half right in the trash.  Naturally I was appalled.  I asked him
 why he did it.  He said, 'I don't want to hire any unlucky people.'"  
