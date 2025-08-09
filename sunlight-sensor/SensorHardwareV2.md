@@ -75,16 +75,12 @@ ChatGPT:
 > - Example:  
 >   **U.FL male to SMA female pigtail adapter cable**, if your antenna uses SMA.
 
-This left me thoroughly confused, and I decided that the only way to be sure was to find some pigtails for sale with close-up pictures and visually verify that I had the right connector.  The ones that I found didn't call the U.FL end either male or female; I don't know if that means ChatGPT is right or not.  [Amazon]
-
-The wrong connector: 
+This left me thoroughly confused, and I decided that the only way to be sure was to find some pigtails for sale with close-up pictures and visually verify that I had the right connector.  The ones that I found didn't call the U.FL end either male or female; I don't know if that means ChatGPT is right or not.  [[Amazon]](https://www.amazon.com/dp/B0DZTWHNFY)
 
 <figure>
   <img src="images/wrong_antenna_connector.jpg" width="400" alt="A close-up photo of the incorrect antenna pigtail connector which does not fit the ESP32 board." />
   <figcaption>The wrong antenna pigtail connector.</figcaption>
 </figure>
-
-The right connector:
 
 <figure>
   <img src="images/right_antenna_connector.jpg" width="400" alt="A close-up photo of the correct U.FL antenna pigtail connector for the ESP32 board." />
@@ -101,7 +97,7 @@ I ran into complications when choosing a power source.  I started my research by
 
 ### TP4056 Module and LiPo Battery
 
-ChatGPT recommended I get a 3.7V 1200mAh LiPo battery [Amazon], and a TP4056 5V 1A Lithium Battery Charger Module Charging Board with Dual Protection Functions. [Amazon]  I could add a solar panel to keep it charged it at some later date.
+ChatGPT recommended I get a 3.7V 1200mAh LiPo battery [[Amazon]](https://www.amazon.com/dp/B07TWHHCNK), and a TP4056 5V 1A Lithium Battery Charger Module Charging Board with Dual Protection Functions. [[Amazon]](https://www.amazon.com/dp/B07PKND8KG)  I could add a solar panel to keep it charged it at some later date.
 
 When I got to the point that I was successfully sending sensor data via WiFi to my REST API, I decided it was time to hook up the battery.  I had it ready in my hands. I started by interrogating ChatGPT again.  Although I used Gemini for most of my code questions, I found ChatGPT more helpful in higher level questions or questions that required recent knowledge, like information about hardware components.  
 
@@ -186,7 +182,7 @@ The solutions that I've seen for the 555 seem complicated when I have access to 
 
 Originally I ordered some nice enclosures which are intended specifically for electronics projects, but they were too small to hold a USB power bank.  They also tend to be held shut with screws, and I knew that since these were prototypes I'd probably be opening them up a lot.
 
-I decided to try the Plano Waterproof Stowaway.  It has a gasket and satisfying snap-shut latches.  It's a soft plastic that I could cut holes in for the WiFi antenna and light sensor.  It was a good fit.
+I decided to try the Plano Waterproof Stowaway 3400.  It has a gasket and satisfying snap-shut latches.  It's a soft plastic that I could cut holes in for the WiFi antenna and light sensor.  It was a good fit.
 
 <figure>
   <img src="images/plano_enclosure.jpg" width="400" alt="A clear plastic Plano Waterproof Stowaway box with orange latches." />

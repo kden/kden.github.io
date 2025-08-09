@@ -30,7 +30,9 @@ In presenting this project, I'm hoping to convince you that:
 - Sensor Prototype Hardware Builds
   - [Sensor Hardware V1](SensorHardwareV1)
   - [Sensor Hardware V2](SensorHardwareV2)
+  - [Enclosure Updates](EnclosureUpdates.md)
 - [Test Site Description](Site.md)
+- [Important Updates](ImportantUpdates.md)
 - [Future Enhancements and Fixes](https://github.com/users/kden/projects/1) Tracked as issues in GitHub
 
 ## Source Code
