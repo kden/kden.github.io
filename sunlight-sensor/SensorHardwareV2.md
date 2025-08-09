@@ -172,9 +172,11 @@ I am still working through this problem.  So far I have tried:
 
 1. A 100Ω resistor.  This worked well, but reduced the life of the battery pack.
 
-2. A 47Ω resistor.  This caused the power bank to blink its indicator lights and then shut itself off.  I suspect the resistance was so low that it detected it as a short.
+2. 470Ω, 330Ω, and 220Ω resistors.  The idea is to start with a high resistance and step down.  The higher the resistance, the less current you'll use, and the longer the battery will last.  Unfortunately, all of these had the same low current draw problem, and the battery pack would shut itself off. 
 
-3. Turn on the RGB LED onboard the ESP32 at maximum brightness every few seconds.  This was not enough to keep the power bank alive.
+3. A 47Ω resistor.  This caused the power bank to blink its indicator lights and then shut itself off.  I suspect the resistance was so low that it detected it as a short.
+
+4. Turn on the RGB LED onboard the ESP32 at maximum brightness every few seconds.  This was not enough to keep the power bank alive.
 
 The solutions that I've seen for the 555 seem complicated when I have access to all of the functionality of the ESP32 board, so I think I am going to use it to periodically trigger something other than the onboard LED.  For now I have the suboptimal 100Ω resistor solution.  And eventually I will plan for a different power source that can be at least partly charged by solar.   At least for the sensors that aren't completely in the shade.
 

@@ -41,3 +41,21 @@ The updated waterproofing is currently out in the rain for testing.
 You may have noticed from the previous picture that the antenna has moved and a piece of electrical tape exists in the old location of the antenna.  This is to accommodate new USB power supplies.  The long-term plan is still to investigate power supplies that have no low-current shutoff, but for now, I wanted power supplies that would last at least a day.  The new USB battery packs are 15000mAh.  [Amazon](https://www.amazon.com/dp/B0B45GX5V7)  They are a little bit bigger, so the antenna had to be moved, and I had to order new right-angle USB connectors to fit in the enclosure.
 
 I have great faith in the waterproofing abilities of electrical tape after using it to mask off protected parts of tin in an [electrolytic etching project](images/tin_box_etched.jpg) I did some years ago, so that's all I've used to cover the hole for now.  Unfortunately, I couldn't get it to stick to the curve of the light sensor, which is why I used the Gorilla tape to waterproof that.  For now, they're working well.  They last about 2 days and survived getting a little bit of water on them.
+
+## Bolted Feet
+
+The soft plastic of the enclosures also did not bond well with the epoxy I used to attach the feet.  When I removed the enclosure from the cleat, it would just break off, leaving the foot in the cleat.
+
+<figure>
+  <img src="images/stealth_mounts_cleat_and_foot.jpg" width="400" alt="A black plastic Stealthmounts cleat and foot, used for mounting the sensor enclosure." />
+  <figcaption>Stealthmounts Cleat and Foot for mounting.</figcaption>
+</figure>
+
+<figure>
+  <img src="images/sensor_3_proto.jpg" width="400" alt="The complete sensor prototype in its enclosure, mounted on a wooden stake stand." />
+  <figcaption>The fully assembled sensor prototype on its stand.</figcaption>
+</figure>
+
+There are clearly holes in the foot to be bolted to something, but I did not want to use them because I wanted as few holes in the enclosure as possible, and over-tightening or pulling on the screws could cause the plastic to crack.  Since these were the attachment point to the stakes, they'd get pulled on a lot.
+
+However, I did some research and found that epoxy is not great at sticking to soft plastic like that of the enclosure, and decided to go with the bolts.  I bought some M4 pan-head screws, nuts, washers, and rubber washers and reattached the feet.  So far they are working.
