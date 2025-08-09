@@ -58,4 +58,4 @@ The soft plastic of the enclosures also did not bond well with the epoxy I used 
 
 There are clearly holes in the foot to be bolted to something, but I did not want to use them because I wanted as few holes in the enclosure as possible, and over-tightening or pulling on the screws could cause the plastic to crack.  Since these were the attachment point to the stakes, they'd get pulled on a lot.
 
-However, I did some research and found that epoxy is not great at sticking to soft plastic like that of the enclosure, and decided to go with the bolts.  I bought some M4 pan-head screws, nuts, washers, and rubber washers and reattached the feet.  So far they are working.
+However, I did some research and found that epoxy is not great at sticking to soft plastic like that of the enclosure. I decided to try the bolts.  I bought some M4 pan-head screws, nuts, washers, and rubber washers and reattached the feet.  So far they are working.
