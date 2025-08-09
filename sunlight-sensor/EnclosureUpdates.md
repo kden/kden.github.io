@@ -38,7 +38,7 @@ The updated waterproofing is currently out in the rain for testing.
 
 ## Larger USB Power Supplies
 
-You may have noticed from the previous picture that the antenna has moved and a piece of electrical tape exists in the old location of the antenna.  This is to accommodate new USB power supplies.  The long-term plan is still to investigate power supplies that have no low-current shutoff, but for now, I wanted power supplies that would last at least a day.  The new USB battery packs are 15000mAh.  [Amazon](https://www.amazon.com/dp/B0B45GX5V7)  They are a little bit bigger, so the antenna had to be moved, and I had to order new right-angle USB connectors to fit in the enclosure.
+You may have noticed from the previous picture that the antenna has moved and a piece of electrical tape exists in the old location of the antenna.  This is to accommodate new USB power supplies.  The long-term plan is still to investigate power supplies that have no low-current shutoff, but for now, I wanted power supplies that would last at least a day.  The new USB battery packs are 15000mAh.  [[Amazon]](https://www.amazon.com/dp/B0B45GX5V7)  They are a little bit bigger, so the antenna had to be moved, and I had to order new right-angle USB connectors to fit in the enclosure.
 
 I have great faith in the waterproofing abilities of electrical tape after using it to mask off protected parts of tin in an [electrolytic etching project](images/tin_box_etched.jpg) I did some years ago, so that's all I've used to cover the hole for now.  Unfortunately, I couldn't get it to stick to the curve of the light sensor, which is why I used the Gorilla tape to waterproof that.  For now, they're working well.  They last about 2 days and survived getting a little bit of water on them.
 
