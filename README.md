@@ -25,7 +25,7 @@ An end-to-end data streaming project including:
         <strong>Prototype light sensor build</strong>
       </td>
       <td style="text-align:center; vertical-align:top; border:none;">
-        <img src="sunlight-sensor/images/screenshot_sensor_levels_screen.png" width="550" alt="A screenshot of the Sunlight Sensor web application dashboard, showing a bar chart with sensor light levels."/>
+        <img src="sunlight-sensor/images/sensor_levels_V2.png" width="550" alt="A screenshot of the Sunlight Sensor web application dashboard, showing a bar chart with sensor light levels."/>
         <br/>
         <strong>Web Application Screen Shot</strong>
       </td>
