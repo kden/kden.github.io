@@ -47,7 +47,7 @@ I stuck with the same light sensor.
 
 ## WiFi Antenna
 
-I started with a kit containing both the antenna and the pigtail that would connect it to the ESP32 board.  I asked ChatGPT whether a particular antenna kit was compatible with my development board, and it said "sure thing, boss!" [Mouser]  With this kind of foreshadowing, you've probably already realized that something was wrong.  It was the wrong kind of antenna pigtail.  I tried to gently mash the tiny connectors together, but I started to suspect I would break something if I really mashed them.  The connectors are so small, around the size of a sesame seed, that it's hard to see what's going on in there.
+I started with a kit containing both the antenna and the pigtail that would connect it to the ESP32 board.  I asked ChatGPT whether a particular antenna kit was compatible with my development board, and it said "sure thing, boss!" [[Mouser](https://www.mouser.com/ProductDetail/409-EP-FMWFEXT-UPCP)]  With this kind of foreshadowing, you've probably already realized that something was wrong.  It was the wrong kind of antenna pigtail.  I tried to gently mash the tiny connectors together, but I started to suspect I would break something if I really mashed them.  The connectors are so small, around the size of a sesame seed, that it's hard to see what's going on in there.
 
 <figure>
   <img src="images/antenna_kit.jpg" width="400" alt="A WiFi antenna kit including the antenna and a pigtail connector cable." />

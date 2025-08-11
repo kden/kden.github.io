@@ -36,6 +36,8 @@ I cut a hole in a piece of waterproof tape that would cover the lip and placed i
 
 The updated waterproofing is currently out in the rain for testing.
 
+Update: 50% failure rate on the updated waterproofing.  I've ordered some new enclosures that will be here in a few weeks for a different design.
+
 ## Larger USB Power Supplies
 
 You may have noticed from the previous picture that the antenna has moved and a piece of electrical tape exists in the old location of the antenna.  This is to accommodate new USB power supplies.  The long-term plan is still to investigate power supplies that have no low-current shutoff, but for now, I wanted power supplies that would last at least a day.  The new USB battery packs are 15000mAh.  [[Amazon]](https://www.amazon.com/dp/B0B45GX5V7)   When I bought them, they were on sale for 2 for $17.99, which I hope does not mean they are going to burst into flame.  They are a little bit bigger, so the antenna had to be moved, and I had to order new right-angle USB connectors to fit in the enclosure.
