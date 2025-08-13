@@ -37,6 +37,12 @@ I cut a hole in a piece of waterproof tape that would cover the lip and placed i
 The updated waterproofing is currently out in the rain for testing.
 
 Update: 50% failure rate on the updated waterproofing.  I've ordered some new enclosures that will be here in a few weeks for a different design.
+Update: One day later, 100% failure rate on the updated waterproofing.  <a name="temp_enc">I have a temporary fix until the new enclosure design can be implemented.</a>
+
+<figure>
+  <img src="images/light_sensor_with_plastic_bag_cover.jpg" width="400" alt="The complete sensor prototype in its enclosure, mounted on a wooden stake stand.  The sensor is covered with an inverted open clear plastic ziploc-style bag." />
+  <figcaption>Sensor with clear plastic bag for temporary waterproofing.</figcaption>
+</figure>
 
 ## Larger USB Power Supplies
 

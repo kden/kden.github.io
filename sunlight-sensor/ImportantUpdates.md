@@ -2,9 +2,13 @@
 
 This page is a timeline of arbitrarily selected milestones that I felt had some importance.  The first month got us from 0 to a working end-to-end system with a simple event messaging structure and data transformations. 
 
+### August 13, 2025
+- Finished up an experiment in waterproofing the enclosures, which didn't achieve the desired results.  No equipment was damaged.  We have a [temporary fix](EnclosureUpdates.md#temp_enc) in place while we wait for new enclosures.
+- We have had massive rainstorms and street flooding for a few days, hence the waterproofing issues.  This also resulted in internet outages where we lost a lot of sensor data.  I've [added a buffer to each sensor](https://github.com/kden/esp32_sunlight_sensor/issues/5) where if it can't submit readings to the internet, it will wait until the next attempt interval and send the previous readings and the current ones.
+
 ### August 5, 2025
-- Add hourly Open Meteo data, as tables in the web app and as radiation values in the Sensor Levels line graph
-- Cloud Run functions all migrated to deploy as GitHub Actions instead of Terraform definitions
+- [Add hourly Open Meteo data, as tables in the web app and as radiation values in the Sensor Levels line graph](https://github.com/kden/sunlight_sensor_gcp/issues/2)
+- [Cloud Run functions all migrated to deploy as GitHub Actions instead of Terraform definitions](https://github.com/kden/sunlight_sensor_gcp/issues/4)
 
 ## The first month
 
