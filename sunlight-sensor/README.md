@@ -27,6 +27,8 @@ In presenting this project, I'm hoping to convince you that:
 - [High-Level Software Architecture](Architecture.md)
 - [Statement regarding the use of AI](UseOfAI.md)
 - [Nonfunctional Requirements](Nonfunctional.md)
+- [CICD](CICD.md)
+- [Monitoring](Monitoring.md)
 - Sensor Prototype Hardware Builds
   - [Sensor Hardware V1](SensorHardwareV1)
   - [Sensor Hardware V2](SensorHardwareV2)

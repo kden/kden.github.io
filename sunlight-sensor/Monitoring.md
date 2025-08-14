@@ -8,6 +8,7 @@ Google Cloud Monitoring generates metrics from the log messages produced by the 
 
 Here are some screen captures of the monitoring dashboard and messages.  I'm using Google's "off the shelf" products here, so customization is somewhat limited.  In the past I've used Datadog and PagerDuty, and those made it a bit easier to customize messages and alerts.
 
+## Month one Monitoring
 <figure>
   <img src="images/sunlight_sensor_google_dashboard.png" width="999" height="527" alt="Google Cloud Monitoring dashboard, showing sensor pings and Pub/Sub traffic." />
   <figcaption>Google Cloud Monitoring desktop dashboard, showing sensor pings and Pub/Sub traffic.</figcaption>
@@ -44,3 +45,16 @@ In the email, you can only personalize the "Policy Documentation" section.  For 
 </figure>
 
 That link will take you to an automatically created incident page in the Dashboards: Alerting section of Google Cloud console.  There you can acknowledge, close, or otherwise manage the alert.
+
+## Pushover
+
+After setting up the initial alerts, I did not want Google incidents to be created for the status messages I received when the sensors start up and send their initial Wifi connection and NTP setting messages.  The free method we used to have of sending an email that could become an SMS through a gateway provided by a provider, like 9995551212@tmomail.net, was ruined by spammers and has been cut off.  So I found a recommendation for [Pushover](https://pushover.net/), which is an inexpensive option to push alerts to various devices, including my Android phone.
+
+I still receive the "incident" alerts when pings stop for more than 15 minutes as SMS messages and emails, but these status message are now Android push notifications.
+
+It was easy to set up.  Here's what a typical message looks like; you have to install the Pushover app to receive them.
+
+<figure>
+  <img src="images/pushover_alerts_v1.png" alt="Example Pushover app notifications for sensor status changes." width="800" />
+  <figcaption>Pushover sensor status notifications</figcaption>
+</figure>
