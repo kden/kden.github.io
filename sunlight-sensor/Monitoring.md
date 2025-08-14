@@ -55,6 +55,6 @@ I still receive the "incident" alerts when pings stop for more than 15 minutes a
 It was easy to set up.  Here's what a typical message looks like; you have to install the Pushover app to receive them.
 
 <figure>
-  <img src="images/pushover_alerts_v1.png" alt="Example Pushover app notifications for sensor status changes." width="800" />
+  <img src="images/pushover_alerts_v1.png" alt="Example Pushover app notifications for sensor status changes." width="384" height="853"  />
   <figcaption>Pushover sensor status notifications</figcaption>
 </figure>
