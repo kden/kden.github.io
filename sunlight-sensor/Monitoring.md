@@ -48,7 +48,7 @@ That link will take you to an automatically created incident page in the Dashboa
 
 ## Pushover
 
-After setting up the initial alerts, I did not want Google incidents to be created for the status messages I received when the sensors start up and send their initial Wifi connection and NTP setting messages.  The free method we used to have of sending an email that could become an SMS through a gateway provided by a provider, like 9995551212@tmomail.net, was ruined by spammers and has been cut off.  So I found a recommendation for [Pushover](https://pushover.net/), which is an inexpensive option to push alerts to various devices, including my Android phone.
+After setting up the initial alerts, I did not want Google incidents to be created for the status messages I received when the sensors start up and send their initial Wifi connection and NTP setting messages.  The free method we used to have of sending an email that could become an SMS through a gateway provided by a mobile network provider, like 9995551212@tmomail.net through T-Mobile, was ruined by spammers and has been cut off.  So I found a recommendation for [Pushover](https://pushover.net/), which is an inexpensive option to push alerts to various devices, including my Android phone.
 
 I still receive the "incident" alerts when pings stop for more than 15 minutes as SMS messages and emails, but these status message are now Android push notifications.
 
