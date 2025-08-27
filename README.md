@@ -38,7 +38,7 @@ An end-to-end data streaming project including:
 *Written without the aid of AI*
 
 - [Aligning an audio file with an EPUB3](writing/AligningEPUBs.md)
-- [Is this a Scam?  A true life story](Writing/IsThisAScam.md)
+- [Is this a Scam?  A true life story](writing/IsThisAScam.md)
 
 ## A Note to Employers Regarding the Use of AI
 
