@@ -6,6 +6,11 @@ The test site is an approximately 133ft x 33ft lot, located in Madison, Wisconsi
   <figcaption>Test lot for the Sunlight Sensor project</figcaption>
 </figure>
 
+<figure>
+  <img src="images/usgs_site_025-09-16_16-30-16.png" width="" alt="Sunlight sensor test lot tree canopy" />
+  <figcaption>Tree canopy of the test lot (Source: <a href="https://earthexplorer.usgs.gov/">https://earthexplorer.usgs.gov/</a> 9/16/2025) </figcaption>
+</figure>
+
 I plotted out the test site in 10 foot increments a year ago for a different project.  The (0,0) position is in the southern corner of the lot.
 
 <figure>
