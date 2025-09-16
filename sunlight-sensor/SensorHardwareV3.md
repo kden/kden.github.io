@@ -5,6 +5,7 @@ I'm working on the next hardware layout, which will let us eliminate the USB bat
 
 ## Electrical connections
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'background':'#ffffff', 'primaryColor':'#ffffff', 'primaryTextColor':'#000000', 'primaryBorderColor':'#000000', 'lineColor':'#000000', 'arrowheadColor':'#000000', 'edgeLabelBackground':'#ffffff', 'clusterBkg':'#ffffff', 'defaultLinkColor':'#000000'}}}%%
 flowchart TD
     bat[Battery]
     bms[Battery Management System]
@@ -76,6 +77,7 @@ flowchart TD
 
 ## Electrical connections with estimated voltages
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'background':'#ffffff', 'primaryColor':'#ffffff', 'primaryTextColor':'#000000', 'primaryBorderColor':'#000000', 'lineColor':'#000000', 'arrowheadColor':'#000000', 'edgeLabelBackground':'#ffffff', 'clusterBkg':'#ffffff', 'defaultLinkColor':'#000000'}}}%%
 flowchart TD
     bat[Battery<br/>3.7V nominal]
     bms[Battery Management System]
@@ -148,6 +150,7 @@ flowchart TD
 ## Electrical connections with estimated current
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'background':'#ffffff', 'primaryColor':'#ffffff', 'primaryTextColor':'#000000', 'primaryBorderColor':'#000000', 'lineColor':'#000000', 'arrowheadColor':'#000000', 'edgeLabelBackground':'#ffffff', 'clusterBkg':'#ffffff', 'defaultLinkColor':'#000000'}}}%%
 flowchart TD
     bat[Samsung 35E Battery<br/>3.7V, 3500mAh]
     bms[Battery Management System]
