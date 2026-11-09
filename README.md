@@ -4,7 +4,7 @@ Use of AI has been disclosed where applicable.  The text of this portfolio was w
 
 LinkedIn: [linkedin.com/in/chowell](https://linkedin.com/in/chowell)
 
-## [Sunlight Sensor Project](sunlight-sensor/README.md)
+## [Sunlight Sensor Project](sunlight-sensor/README.md) (2025)
 
 [View the Sunlight Sensor Project](sunlight-sensor/README.md)
 
