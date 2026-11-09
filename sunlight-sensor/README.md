@@ -1,3 +1,11 @@
+<div markdown="1" style="background-color:#cff4fc; border:1px solid #b6effb; color:#055160; border-radius:0.375rem; padding:1rem 1.25rem; margin-bottom:1.5rem;">
+
+## The Sunlight Sensor Project has been... sunsetted.
+
+I've (physically) moved away from the data collection site to a house with a much sunnier yard. For now at least, I'm shutting down the Sunlight Sensor Project. You can still see the data collected from August 2025 through November 2025 as a demonstration of how the project worked.
+
+</div>
+
 # Sunlight Sensor Project
 
 An end-to-end data streaming project including:
